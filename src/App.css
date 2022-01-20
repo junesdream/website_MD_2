@@ -1,38 +1,211 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.home,
+.stories,
+.faces,
+.music,
+.about,
+.sign-up,
+.facesBack,
+.musicBack {
   display: flex;
-  flex-direction: column;
+  height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+.stories {
+  /* background-image: url('/Users/junes/website-app-five/src/assets/your_Stroy.png'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-animation: animatedBackground_b 5s linear infinite alternate;
+  font-size: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.faces {
+  /* background-image: url('/Users/junes/website-app-five/public/images/faces.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  -webkit-animation: animatedBackground_b 5s linear infinite alternate;
 }
+
+.music {
+  /* background-image: url('/Users/junes/website-app-five/public/images/music.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  -webkit-animation: animatedBackground_b 5s linear infinite alternate;
+}
+
+.about {
+  /* background-image: url('/Users/junes/website-app-five/src/assets/about.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  -webkit-animation: animatedBackground_b 5s linear infinite alternate;
+}
+
+.sign-up {
+  /* background-image: url('/Users/junes/website-app-five/src/assets/sign_up.jpg'); */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+.facesBack {
+  background-image: url('/Users/junes/Coding_Projects/medien_design_II/website-app-6/src/assets/faces-back.png');
+  background-position: center;
+  background-size: cover;
+  margin-top:22px;
+  background-repeat: no-repeat;
+  font-size: 100px;
+  -webkit-animation: animatedBackground_b 5s linear infinite alternate;
+}
+
+.facesCard {
+  background-image: url('/Users/junes/Coding_Projects/medien_design_II/website-app-6/src/assets/faces-card.png');
+  object-fit: fill;
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.facesCard h1 {
+  font-family: 'Warnes', cursive;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+}
+
+.storiesCard {
+  background-image: url('/Users/junes/Coding_Projects/medien_design_II/website-app-6/src/assets/stroy_telling.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.storiesCard h1 {
+  font-family: 'Warnes', cursive;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
+}
+
+.storyDiegoCard {
+  background-image: url('/Users/junes/Coding_Projects/medien_design_II/website-app-6/src/assets/d-images/Diego_7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.storyDiegoCard h1 {
+  font-family: 'Warnes', cursive;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+}
+
+.musicBack {
+  background-image: url('/Users/junes/Coding_Projects/medien_design_II/website-app-6/src/assets/mu-images/music_back.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top:22px;
+  font-size: 100px;
+  -webkit-animation: animatedBackground_b 5s linear infinite alternate;
+}
+
+.musicCard {
+  background-image: url('/Users/junes/Coding_Projects/medien_design_II/website-app-6/src/assets/mu-images/mu-backgrounds.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.musicCard h1 {
+  font-family: 'Warnes', cursive;
+  color: #fff;
+  margin-bottom: 20px;
+   text-align: center;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;
+}
+
+.aboutCard {
+  background-image: url('/Users/junes/Coding_Projects/medien_design_II/website-app-6/src/assets/about-images/about-background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.aboutCard h1 {
+  font-family: 'Warnes', cursive;
+  color: #fff;
+  margin-bottom: 20px;
+   text-align: center;
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+.contactCard {
+  background-image: url('/Users/junes/Coding_Projects/medien_design_II/website-app-6/src/assets/about-images/contact-background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.contactCard h1 {
+  font-family: 'Warnes', cursive;
+  color: #fff;
+  margin-bottom: 20px;
+   text-align: center;
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
