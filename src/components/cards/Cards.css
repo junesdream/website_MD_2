@@ -2,7 +2,7 @@
 .cards {
   padding: 4rem;
   background: #fff;
-   background-image: url('/Users/junes/Coding_Projects/medien_design_II/website-app-6/public/images/hero-1.jpg');
+   background-image: url('.../public/images/hero-1.jpg');
    background-size: cover;
 }
 
