@@ -68,7 +68,7 @@
 	font-size: 100px;
 }
 .facesBack {
-	background-image: url(".../assets/faces-back.png");
+	background-image: url("./assets/faces-back.png");
 	background-position: center;
 	background-size: cover;
 	margin-top: 22px;
@@ -78,7 +78,7 @@
 }
 
 .facesCard {
-	background-image: url(".../assets/faces-card.png");
+	background-image: url("./assets/faces-card.png");
 	object-fit: fill;
 	background-position: cover;
 	background-size: cover;
@@ -94,7 +94,7 @@
 }
 
 .storiesCard {
-	background-image: url(".../assets/stroy_telling.jpg");
+	background-image: url("./assets/stroy_telling.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -109,7 +109,7 @@
 }
 
 .storyDiegoCard {
-	background-image: url(".../assets/d-images/Diego_7.jpg");
+	background-image: url("./assets/d-images/Diego_7.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -125,7 +125,7 @@
 }
 
 .musicBack {
-	background-image: url(".../assets/mu-images/music_back.png");
+	background-image: url("./assets/mu-images/music_back.png");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -135,7 +135,7 @@
 }
 
 .musicCard {
-	background-image: url(".../assets/mu-images/mu-backgrounds.jpg");
+	background-image: url("./assets/mu-images/mu-backgrounds.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -151,7 +151,7 @@
 }
 
 .aboutCard {
-	background-image: url(".../assets/about-images/about-background.jpg");
+	background-image: url("./assets/about-images/about-background.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -167,7 +167,7 @@
 }
 
 .contactCard {
-	background-image: url(".../assets/about-images/contact-background.jpg");
+	background-image: url("./assets/about-images/contact-background.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
